@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <title>Profile Page</title>
+</head>
+
+<body class="bg-gray">
+    <header class="bg-red">
+        <div class="container">
+            <div class="header-area d-m-flex justify-content-space-between">
+                <div class="header-top d-m-flex">
+                    <div class="logo t-c">
+                        <a href="#"><img src="./img/logo_2.png" alt="logo"></a>
+                    </div>
+                    <div class="search-bar t-c">
+                        <form action="#" class="p-relative">
+                            <input type="text" name="search" placeholder="Search..."
+                                class="bg-white c-lightGray outline-0 b-0 b-rd-3 w-100">
+                            <button type="submit"
+                                class="bg-gray c-red outline-0 b-0 b-t-r-3 b-b-r-3 pointer p-absolute">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <nav class="bg-red p-xl-relative" id="navbar">
+                    <ul class="d-xl-flex">
+                        <li>
+                            <a href="Home Page.html" class="t-capitalize c-white d-xl-flex flex-d-xl-column align-items-xl-center fs-14">
+                                <i class="fas fa-home"></i>
+                                home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="t-capitalize c-white d-xl-flex flex-d-xl-column align-items-xl-center fs-14">
+                                <i class="fas fa-users"></i>
+                                profiles
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="t-capitalize c-white d-xl-flex flex-d-xl-column align-items-xl-center fs-14">
+                                <i class="fas fa-envelope"></i>
+                                messages
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="t-capitalize c-white d-xl-flex flex-d-xl-column align-items-xl-center fs-14">
+                                <i class="far fa-bell"></i>
+                                notification
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="user-info d-flex align-items-center justify-content-space-between">
+                    <div class="info d-flex align-items-center">
+                        <img src="./img/12.jpeg" alt="user">
+                        <span class="c-white">Joceline Candra</span>
+                    </div>
+                    <i class="fas fa-bars c-white pointer d-xl-none"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="cover-sec p-relative w-100">
+        <img src="./img/nj_ditto_1.jpg" alt="cover" class="w-100">
+        <div class="add-pic-box w-100 p-absolute fs-16">
+            <div class="container">
+                <form action="#" class="d-flex">
+                    <input type="file" id="file">
+                    <label for="file" class="t-uppercase bg-white c-red b-rd-3 pointer">change image</label>
+                </form>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="container">
+            <div class="main-sec d-flex flex-d-column flex-d-l-row">
+                <div class="left">
+                    <div class="box box-1">
+                        <div class="user-profile bg-white w-100 t-c">
+                            <div class="user-pro-img p-relative t-c w-100">
+                                <img src="./img/12.jpeg" class="b-rd-50">
+                                <div class="add-pic p-absolute">
+                                    <input type="file" id="pic">
+                                    <label for="pic" class="">
+                                        <i class="fas fa-camera bg-red c-white b-rd-50 t-c fs-14 pointer"></i>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="user-pro-status w-100">
+                                <ul class="flw-status d-flex align-items-center justify-content-center">
+                                    <li>
+                                        <span class="t-capitalize c-lightGray fs-16 d-block">following</span>
+                                        <b class="fs-20 c-black">987</b>
+                                    </li>
+                                    <li>
+                                        <span class="t-capitalize c-lightGray fs-16 d-block">followers</span>
+                                        <b class="fs-20 c-black">362</b>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="social-links">
+                                <li>
+                                    <a href="#" class="w-100 c-blue fs-14 d-flex align-items-center">
+                                        <i class="fs-20 fab fa-twitter"></i>
+                                         Http://www.Twitter.com/joce...
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="w-100 c-blue fs-14 d-flex align-items-center">
+                                        <i class="fs-20 fab fa-instagram"></i>
+                                         Http://www.instagram.com/joce...
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="w-100 c-blue fs-14 d-flex align-items-center">
+                                        <i class="fs-20 fab fa-youtube-square"></i>
+                                        Http://www.youtube.com/joce...
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box box-2 bg-white">
+                        <div class="sg-title d-flex align-items-center justify-content-space-between">
+                            <h3 class="t-capitalize">Mutuals</h3>
+                            <i class="fas fa-ellipsis-v pointer c-lightGray"></i>
+                        </div>
+                        <div class="sg-list">
+                            <div class="sg-user d-flex">
+                                <img src="./img/avatar3.png" alt="#" class="t-capitalize c-white">
+                                <div class="sg-text">
+                                    <h4 class="t-capitalize">Capybara</h4>
+                                    <span class="t-capitalize c-mediumGray">psychiatrist</span>
+                                </div>
+                                <span
+                                    class="c-lightGray d-flex align-items-center justify-content-center pointer b-rd-3">
+                                    <i class="fas fa-plus"></i>
+                                </span>
+                            </div>
+                            <div class="sg-user d-flex">
+                                <img src="./img/avatar2.png" alt="">
+                                <div class="sg-text">
+                                    <h4 class="t-capitalize">Mother Theresa</h4>
+                                    <span class="t-capitalize c-mediumGray">DJ and Producer</span>
+                                </div>
+                                <span
+                                    class="c-lightGray d-flex align-items-center justify-content-center pointer b-rd-3">
+                                    <i class="fas fa-plus"></i>
+                                </span>
+                            </div>
+                            <div class="sg-user d-flex">
+                                <img src="./img/avatar4.png" alt="">
+                                <div class="sg-text">
+                                    <h4 class="t-capitalize">Goofy Ah</h4>
+                                    <span class="t-capitalize c-mediumGray">Comedian</span>
+                                </div>
+                                <span
+                                    class="c-lightGray d-flex align-items-center justify-content-center pointer b-rd-3">
+                                    <i class="fas fa-plus"></i>
+                                </span>
+                            </div>
+                            <div class="sg-user d-flex">
+                                <img src="./img/avatar2.png" alt="">
+                                <div class="sg-text">
+                                    <h4 class="t-capitalize">Hitman Bang</h4>
+                                    <span class="t-capitalize c-mediumGray">businessman</span>
+                                </div>
+                                <span
+                                    class="c-lightGray d-flex align-items-center justify-content-center pointer b-rd-3">
+                                    <i class="fas fa-plus"></i>
+                                </span>
+                            </div>
+                            <div class="sg-user d-flex">
+                                <img src="./img/avatar3.png" alt="">
+                                <div class="sg-text">
+                                    <h4 class="t-capitalize">Mr Jokowi</h4>
+                                    <span class="t-capitalize c-mediumGray">Content Creator</span>
+                                </div>
+                                <span
+                                    class="c-lightGray d-flex align-items-center justify-content-center pointer b-rd-3">
+                                    <i class="fas fa-plus"></i>
+                                </span>
+                            </div>
+                            <div class="sg-user d-flex">
+                                <img src="./img/avatar2.png" alt="">
+                                <div class="sg-text">
+                                    <h4 class="t-capitalize">Banteng Merah</h4>
+                                    <span class="t-capitalize c-mediumGray">Plumber</span>
+                                </div>
+                                <span
+                                    class="c-lightGray d-flex align-items-center justify-content-center pointer b-rd-3">
+                                    <i class="fas fa-plus"></i>
+                                </span>
+                            </div>
+                            <div class="view-more t-c fs-14">
+                                <a href="#" class="t-capitalize c-red">view more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="user-tab-sec">
+                        <h3 class="c-black t-capitalize">Joceline Candra</h3>
+                        <div class="user-tab-details">
+                            <span class="t-capitalize c-mediumGray">Content Creator</span>
+                            <ul class="d-flex align-items-center">
+                                <li><i class="fs-16 fas fa-star"></i></li>
+                                <li><i class="fs-16 fas fa-star"></i></li>
+                                <li><i class="fs-16 fas fa-star"></i></li>
+                                <li><i class="fs-16 fas fa-star"></i></li>
+                                <li><i class="fs-16 fas fa-star-half-alt"></i></li>
+                            </ul>
+                            <a href="#" class="t-capitalize c-blue d-block">status</a>
+                        </div>
+                        <div class="tab-feed">
+                            <ul class="d-flex align-items-center flex-wrap-wrap">
+                                <li data-tab="feed" class="active">
+                                    <a href="#" class="d-flex flex-d-column align-items-center c-lightGray fs-16">
+                                        <i class="far fa-list-alt"></i>
+                                        <span class="t-capitalize fs-16">feed</span>
+                                    </a>
+                                </li>
+                                <li data-tab="info">
+                                    <a href="#" class="d-flex flex-d-column align-items-center c-lightGray fs-16">
+                                        <i class="far fa-question-circle"></i>
+                                        <span class="t-capitalize fs-16">info</span>
+                                    </a>
+                                </li>
+                                <li data-tab="reviews">
+                                    <a href="#" class="d-flex flex-d-column align-items-center c-lightGray fs-16">
+                                        <i class="far fa-comment-dots"></i>
+                                        <span class="t-capitalize fs-16">comments</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-feed-tab current" id="feed">
+                        <div class="box bg-white">
+                            <div class="post-section">
+                                <div class="post-topbar d-flex align-items-center justify-content-space-between">
+                                    <div class="user-info d-flex align-items-center">
+                                        <img src="./img/12.jpeg" alt="user">
+                                        <div class="info">
+                                            <h3 class="c-black t-capitalize">Joceline Candra</h3>
+                                            <span class="c-lightGray">
+                                                <i class="fas fa-clock"></i>
+                                                Online
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <i class="fas fa-ellipsis-v c-lightGray pointer fs-16"></i>
+                                </div>
+                                <div class="epic-sec">
+                                    <div class="details d-flex align-items-center">
+                                        <div class="detail d-flex align-items-center">
+                                            <span class="c-lightGray t-capitalize">Athlete</span>
+                                        </div>
+                                        <div class="detail d-flex align-items-center">
+                                            <span class="c-lightGray t-capitalize">Indonesia</span>
+                                        </div>
+                                    </div>
+                                    <div class="links d-flex align-items-center">
+                                        <div class="link bg-green c-white b-rd-3 fs-20 pointer">
+                                            <i class="far fa-bookmark t-c"></i>
+                                        </div>
+                                        <div class="link bg-red c-white b-rd-3 fs-20 pointer">
+                                            <i class="far fa-envelope t-c"></i>
+                                        </div>
+                                    </div>
+                                    <div class="job-desc">
+                                        <h3 class="t-capitalize c-black fs-16">
+                                            Content Creator
+                                        </h3>
+                                        <div class="jod-det d-flex align-items-center">
+                                            <a href="Profile Page.html" class="btn bg-blue c-white">Profile</a>
+                                        </div>
+                                        <p>God gives the silliest battles to his funniest clown.     
+                                            <a href="#" class="c-red"> view more</a>
+                                        </p>
+                                        <ul class="skill-tags d-flex align-items-center flex-wrap-wrap">
+                                            <li><a href="#" class="c-lightGray bg-gray fs-14">Athlete</a></li>
+                                            <li><a href="#" class="c-lightGray bg-gray fs-14">Student</a></li>
+                                        </ul>
+                                        <div class="job-status-bar">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" class="t-capitalize c-lightGray fs-14">
+                                                        <i class="fas fa-heart"></i>
+                                                        like
+                                                        <span>450</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="t-capitalize c-lightGray fs-14">
+                                                        <i class="fas fa-comment-alt"></i>
+                                                        comment
+                                                        <span>200</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <a href="#" class="t-capitalize c-lightGray fs-14">
+                                                <i class="fas fa-eye"></i>
+                                                views 928
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box bg-white">
+                            <div class="post-section">
+                                <div class="post-topbar d-flex align-items-center justify-content-space-between">
+                                    <div class="user-info d-flex align-items-center">
+                                        <img src="./img/nj_ditto_12.jpg">
+                                        <img src="./img/nj_ditto_13.jpg">
+                                        <img src="./img/nj_ditto_21.jpg">
+                                        <div class="info">
+                                            <h3 class="c-black t-capitalize">Hitman Bang</h3>
+                                            <span class="c-lightGray">
+                                                <i class="fas fa-clock"></i>
+                                                33 min ago
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <i class="fas fa-ellipsis-v c-lightGray pointer fs-16"></i>
+                                </div>
+                                <div class="epic-sec">
+                                    <div class="details d-flex align-items-center">
+                                        <div class="detail d-flex align-items-center">
+                                            <img src="img/icon8.png" alt="">
+                                            <span class="c-lightGray t-capitalize">Businessman</span>
+                                        </div>
+                                        <div class="detail d-flex align-items-center">
+                                            <img src="img/icon9.png" alt="">
+                                            <span class="c-lightGray t-capitalize">South Korea</span>
+                                        </div>
+                                    </div>
+                                    <div class="links d-flex align-items-center">
+                                        <div class="link bg-green c-white b-rd-3 fs-20 pointer">
+                                            <i class="far fa-bookmark t-c"></i>
+                                        </div>
+                                        <div class="link bg-red c-white b-rd-3 fs-20 pointer">
+                                            <i class="far fa-envelope t-c"></i>
+                                        </div>
+                                    </div>
+                                    <div class="job-desc">
+                                        <h3 class="t-capitalize c-black fs-16">
+                                            Businessman
+                                        </h3>
+                                        <div class="jod-det d-flex align-items-center">
+                                            <a href="#" class="btn bg-blue c-white">Profile</a>
+                                        </div>
+                                        <p>Another day, another slay
+                                            <a href="#" class="c-red">view more</a>
+                                        </p>
+                                        <div class="job-status-bar">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" class="t-capitalize c-lightGray fs-14">
+                                                        <i class="fas fa-heart"></i>
+                                                        like
+                                                        <span>195</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="t-capitalize c-lightGray fs-14">
+                                                        <i class="fas fa-comment-alt"></i>
+                                                        comment
+                                                        <span>125</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <a href="#" class="t-capitalize c-lightGray fs-14">
+                                                <i class="fas fa-eye"></i>
+                                                views 500
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produc-feed-tab" id="info">
+                        <div class="box bg-white">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="box portfolio bg-white">
+                        <div class="portfolio-head d-flex align-items-center justify-content-space-between">
+                            <h3 class="t-capitalize c-black">Feeds</h3>
+                            <img src="./img/photo-icon.png" alt="photo">
+                        </div>
+                        <div class="portfolio-body">
+                            <ul class="d-flex align-items-center flex-wrap-wrap">
+                                <li><a href="#"><img src="./img/2.jpeg" alt=""></a></li>
+                                <li><a href="#"><img src="./img/3.jpeg" alt=""></a></li>
+                                <li><a href="#"><img src="./img/4.jpeg" alt=""></a></li>
+                                <li><a href="#"><img src="./img/5.jpeg" alt=""></a></li>
+                                <li><a href="#"><img src="./img/6.jpeg" alt=""></a></li>
+                                <li><a href="#"><img src="./img/10.jpeg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box portfolio bg-white">
+                        <div class="portfolio-head d-flex align-items-center justify-content-space-between">
+                            <h3 class="t-capitalize c-black">Tagged</h3>
+                            <img src="./img/photo-icon.png" alt="photo">
+                        </div>
+                        <div class="portfolio-body">
+                            <ul class="d-flex align-items-center flex-wrap-wrap">
+                                <li><a href="#"><img src="./img/1.jpeg" alt=""></a></li>
+                                <li><a href="#"><img src="./img/8.jpeg" alt=""></a></li>
+                                <li><a href="#"><img src="./img/9.jpeg" alt=""></a></li>
+                                <li><a href="#"><img src="./img/14.jpeg" alt=""></a></li>
+                                <li><a href="#"><img src="./img/20.jpeg" alt=""></a></li>
+                                <li><a href="#"><img src="./img/12.jpeg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-white">
+        <div class="footer-sec">
+            <div class="container d-flex align-items-center justify-content-center flex-d-column flex-d-xl-row">
+                <ul class="d-flex align-items-center justify-content-center flex-wrap-wrap">
+                    <li><a href="#" class="fs-14 c-lightGray t-capitalize">help center</a></li>
+                    <li><a href="#" class="fs-14 c-lightGray t-capitalize">about</a></li>
+                    <li><a href="#" class="fs-14 c-lightGray t-capitalize">privacy policy</a></li>
+                    <li><a href="#" class="fs-14 c-lightGray t-capitalize">community guidelines</a></li>
+                    <li><a href="#" class="fs-14 c-lightGray t-capitalize">cookies policy</a></li>
+                    <li><a href="#" class="fs-14 c-lightGray t-capitalize">career</a></li>
+                    <li><a href="#" class="fs-14 c-lightGray t-capitalize">forum</a></li>
+                    <li><a href="#" class="fs-14 c-lightGray t-capitalize">language</a></li>
+                    <li><a href="#" class="fs-14 c-lightGray t-capitalize">copyright policy</a></li>
+                </ul>
+                <p class="c-lightGray t-c">&copy;Copyright 2022</p>
+                <img src="./img/smol_logo.png" alt="logo">
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/9e5ba2e3f5.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

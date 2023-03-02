@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body {
+  color: #07689f;
+}
+.container {
+	width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #0c0e38;
+  background-color: #FAFAFA;
+  border-radius: 6px;
+}
+
+.container p {
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.container p a {
+  color: #07689f;  
+  border-radius: 6px;
+}
+h1{
+  font-size: 28px;
+  font-weight: 600;
+  color: #232836;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+	font-size: 18px;
+  font-weight: 600;
+  color: #232836;
+  text-align: left;
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+label {
+	margin-top: 20px;
+  margin-bottom: 20px;
+	font-size: 18px;
+  font-weight: 600;
+  color: #232836;
+  text-align: left;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cacaca;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical;
+    margin-top: 5px;
+    margin-bottom: 5px ;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #65a7c7;
+    color: #fafafa;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3d80a1;
+}
+
+.container p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container p a {
+    color: #07689f;
+}
+
+.input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signup-link a {
+    color: #3d80a1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+
+  button[type="submit"] {
+    background-color: #3d80a1;
+    color: #fafafa;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+    width: 100%;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #07689f;
+}
+
+@import url('https://fonts.cdnfonts.com/css/feeling-passionate');
